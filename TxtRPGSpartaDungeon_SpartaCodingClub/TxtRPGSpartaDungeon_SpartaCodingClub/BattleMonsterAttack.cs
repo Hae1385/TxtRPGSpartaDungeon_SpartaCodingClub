@@ -25,5 +25,5 @@ namespace BattleMonsterAttack;
         battleHP -= enermyDmg //위의 랜덤공격력으로 플레이어 HP감소
 
         if (battleHP <= 0) { battleEnermy = EnermyList.Count + 1 } //플레이어의 전투HP가 0이되면 for문에서 빠져나오기
-		}
+		}//1
 }
